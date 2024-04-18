@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE instance-profile
+        SYSTEM "https://resources.jetbrains.com/writerside/1.0/product-profile.dtd">
+
+<instance-profile id="Re"
+                  name="How to Repetition"
+                  start-page="how-to-repetition.md" is-library="true">
+
+    <toc-element topic="how-to-repetition.md"/>
+</instance-profile>

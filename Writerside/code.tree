@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE instance-profile
+        SYSTEM "https://resources.jetbrains.com/writerside/1.0/product-profile.dtd">
+
+<instance-profile id="code"
+                 name="Cpp Note"
+                 start-page="Default-topic.md">
+
+    <toc-element topic="初始化.md"/>
+    <toc-element topic="String.md">
+        <toc-element topic="How-String-View.md"/>
+    </toc-element>
+    <toc-element topic="进程与虚拟地址空间.md"/>
+    <toc-element topic="类型转换.md"/>
+    <toc-element topic="属性.md"/>
+    <toc-element topic="Operator.md"/>
+    <toc-element topic="地址与指针.md">
+        <toc-element topic="指针地址指定.md"/>
+        <toc-element topic="选择合适的指针.md"/>
+        <toc-element topic="指针与动态分配.md"/>
+        <toc-element topic="函数指针.md"/>
+        <toc-element topic="函数地址.md"/>
+        <toc-element topic="变量地址.md"/>
+    </toc-element>
+    <toc-element topic="抽象.md">
+        <toc-element topic="函数抽象.md"/>
+    </toc-element>
+    <toc-element topic="Vector.md">
+        <toc-element topic="Question.md"/>
+    </toc-element>
+    <toc-element topic="公有继承与私有继承的区别.md"/>
+    <toc-element topic="StudentSystem.md"/>
+    <toc-element topic="Default-topic.md"/>
+    <toc-element topic="类的虚函数.md"/>
+    <toc-element topic="Standard-Sequence-Containers.md"/>
+    <toc-element topic="类和动态内存分配.md"/>
+    <toc-element topic="how-to-repetition.md"/>
+</instance-profile>

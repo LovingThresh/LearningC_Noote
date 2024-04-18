@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE instance-profile
+        SYSTEM "https://resources.jetbrains.com/writerside/1.0/product-profile.dtd">
+
+<instance-profile id="qt"
+                 name="QT_Application"
+                 start-page="qt-application.md">
+
+    <toc-element topic="qt-application.md"/>
+    <toc-element topic="MainWindow的主要内容.md"/>
+    <toc-element topic="QT-UI-component.md"/>
+</instance-profile>

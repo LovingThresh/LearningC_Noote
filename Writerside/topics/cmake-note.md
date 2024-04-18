@@ -1,0 +1,3 @@
+# About Cmake Note
+
+Start typing here...

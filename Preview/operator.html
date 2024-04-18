@@ -1,0 +1,75 @@
+<!DOCTYPE html SYSTEM "about:legacy-compat"><html lang="en-US" data-colors-preset="contrast" data-primary-color="#307FFF"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8"><meta charset="UTF-8"><meta name="robots" content="noindex">  <meta name="built-on" content="2023-12-11T09:36:15.7093852"><meta name="build-number" content="${buildNumber}">       <title>Operator * &amp; | Code Instance</title><script id="virtual-toc-data" type="application/json">[{"id":"74f8d05e_1555","level":0,"title":"\u0026 -\u003e 地址运算符/引用符号","anchor":"#74f8d05e_1555"},{"id":"74f8d05e_1565","level":0,"title":"* -\u003e 指针运算符/解引用符号","anchor":"#74f8d05e_1565"},{"id":"74f8d05e_1601","level":0,"title":"\u0026 -\u003e 引用参数/返回类型","anchor":"#74f8d05e_1601"},{"id":"74f8d05e_1609","level":0,"title":"* -\u003e 指针参数/返回类型","anchor":"#74f8d05e_1609"}]</script><script id="topic-shortcuts" type="application/json"></script><link href="https://resources.jetbrains.com/writerside/apidoc/6.6.6-b205/app.css" rel="stylesheet">   <link rel="apple-touch-icon" sizes="180x180" href="https://jetbrains.com/apple-touch-icon.png"><link rel="icon" type="image/png" sizes="32x32" href="https://jetbrains.com/favicon-32x32.png"><link rel="icon" type="image/png" sizes="16x16" href="https://jetbrains.com/favicon-16x16.png"><link rel="manifest" href="https://jetbrains.com/site.webmanifest"><link rel="mask-icon" href="https://jetbrains.com/safari-pinned-tab.svg" color="#000000"><meta name="msapplication-TileColor" content="#000000"/><meta name="msapplication-TileImage" content="https://resources.jetbrains.com/storage/ui/favicons/mstile-144x144.png"/><meta name="msapplication-square70x70logo" content="https://resources.jetbrains.com/storage/ui/favicons/mstile-70x70.png"/><meta name="msapplication-square150x150logo" content="https://resources.jetbrains.com/storage/ui/favicons/mstile-150x150.png"/><meta name="msapplication-wide310x150logo" content="https://resources.jetbrains.com/storage/ui/favicons/mstile-310x150.png"/><meta name="msapplication-square310x310logo" content="https://resources.jetbrains.com/storage/ui/favicons/mstile-310x310.png"/>  <meta name="image" content=""><!-- Open Graph --><meta property="og:title" content="Operator * &amp; | Code Instance"/><meta property="og:description" content=""/><meta property="og:image" content=""/><meta property="og:site_name" content="Code Instance Help"/><meta property="og:type" content="website"/><meta property="og:locale" content="en_US"/><meta property="og:url" content="operator.html"/><!-- End Open Graph --><!-- Twitter Card --><meta name="twitter:card" content="summary_large_image"><meta name="twitter:site" content=""><meta name="twitter:title" content="Operator * &amp; | Code Instance"><meta name="twitter:description" content=""><meta name="twitter:creator" content=""><meta name="twitter:image:src" content=""><!-- End Twitter Card --><!-- Schema.org WebPage --><script type="application/ld+json"> { "@context": "http://schema.org", "@type": "WebPage", "@id": "operator.html#webpage", "url": "operator.html", "name": "Operator * &amp; | Code Instance", "description": "", "image": "", "inLanguage":"en-US" }</script><!-- End Schema.org --><!-- Schema.org WebSite --><script type="application/ld+json"> { "@type": "WebSite", "@id": "/#website", "url": "/", "name": "Code Instance Help" }</script><!-- End Schema.org --></head>      <body data-id="Operator" data-main-title="Operator * &amp;" data-article-props="{&quot;seeAlsoStyle&quot;:&quot;links&quot;}"  data-template="article"  data-breadcrumbs=""  >   <div class="wrapper"><main class="panel _main"><header class="panel__header"><div class="container"><h3>Code Instance  Help</h3><div class="panel-trigger"></div></div></header><section class="panel__content"><div class="container"><article class="article" data-shortcut-switcher="inactive"><h1 data-toc="Operator"   id="Operator.md">Operator * &amp;</h1>  <ul class="list _ul" id="74f8d05e_1551"><li class="list__item" id="74f8d05e_1552"><p>在C++中， <code class="code" id="74f8d05e_1553">*</code>和<code class="code" id="74f8d05e_1554">&amp;</code>具有多种含义和用法，它们的作用取决于它们所处的上下文。</p></li></ul><section class="chapter"><h2 id="74f8d05e_1555" data-toc="74f8d05e_1555"   >& -> 地址运算符/引用符号</h2><section class="chapter"><h3 id="74f8d05e_1556" data-toc="74f8d05e_1556"   >作为地址运算符</h3><p id="74f8d05e_1557">当<code class="code" id="74f8d05e_1558">&amp;</code>用作一元运算符时，它会返回变量的内存地址。</p><div class="code-block" data-lang="cpp"         >
+int var = 10;
+int* ptr = &amp;var; // ptr现在包含var的地址
+</div></section><section class="chapter"><h3 id="74f8d05e_1560" data-toc="74f8d05e_1560"   >作为引用声明符号</h3><p id="74f8d05e_1561">当<code class="code" id="74f8d05e_1562">&amp;</code>在类型声明中使用时，它创建了一个引用。</p><div class="code-block" data-lang="cpp"         >
+int var = 10;
+int&amp; ref = var; // ref是var的引用
+</div><p id="74f8d05e_1564">引用是某个已存在对象的另一个名字，它必须在声明时被初始化，并且一旦与某个对象绑定，就不能再改变绑定到另一个对象。</p></section></section><section class="chapter"><h2 id="74f8d05e_1565" data-toc="74f8d05e_1565"   >* -&gt; 指针运算符/解引用符号</h2><section class="chapter"><h3 id="74f8d05e_1566" data-toc="74f8d05e_1566"   >作为指针声明符号</h3><p id="74f8d05e_1567">当<code class="code" id="74f8d05e_1568">*</code>用在类型声明中时，它表示一个指针类型。</p><div class="code-block" data-lang="cpp"         >
+int var = 10;
+int* ptr = &amp;var; // ptr是指向int类型的指针
+</div></section><section class="chapter"><h3 id="74f8d05e_1570" data-toc="74f8d05e_1570"   >作为解引用运算符</h3><p id="74f8d05e_1571">当<code class="code" id="74f8d05e_1572">*</code>作为一元运算符使用时，它会解引用一个指针，也就是返回指针所指向地址的值。</p><div class="code-block" data-lang="cpp"         >
+int var = 10;
+int* ptr = &amp;var;
+int value = *ptr; // value现在是10，是ptr指向的内存位置的值
+</div></section><section class="chapter"><h3 id="74f8d05e_1574" data-toc="74f8d05e_1574"   >使用场景比较</h3><ul class="list _ul" id="74f8d05e_1575"><li class="list__item" id="74f8d05e_1576"><p><span class="control" id="74f8d05e_1577">变量地址</span> ：获取变量的内存地址。</p></li><li class="list__item" id="74f8d05e_1578"><p><span class="control" id="74f8d05e_1579">创建引用</span> ：创建一个别名，即引用另一个变量。</p></li><li class="list__item" id="74f8d05e_1580"><p><span class="control" id="74f8d05e_1581">声明指针</span> ：声明一个变量，它可以存储内存地址。</p></li><li class="list__item" id="74f8d05e_1582"><p><span class="control" id="74f8d05e_1583">解引用</span> ：通过指针访问它所指向的值。</p></li></ul></section><section class="chapter"><h3 id="74f8d05e_1584" data-toc="74f8d05e_1584"   >示例代码</h3><p id="74f8d05e_1585">下面是一个使用这些运算符的示例代码：</p><div class="code-block" data-lang="cpp"         >
+#include &lt;iostream&gt;
+
+int main() {
+    int var = 10; // 普通变量
+    int* ptr = &amp;var; // 指针，存储var的地址
+    int&amp; ref = var; // 引用，别名为var
+
+    std::cout &lt;&lt; &quot;var: &quot; &lt;&lt; var &lt;&lt; &quot;\n&quot;;
+    std::cout &lt;&lt; &quot;ptr (address): &quot; &lt;&lt; ptr &lt;&lt; &quot;\n&quot;;
+    std::cout &lt;&lt; &quot;*ptr (dereferenced value): &quot; &lt;&lt; *ptr &lt;&lt; &quot;\n&quot;;
+    std::cout &lt;&lt; &quot;ref: &quot; &lt;&lt; ref &lt;&lt; &quot;\n&quot;;
+
+    // 修改引用和指针指向的值
+    *ptr = 20;
+    std::cout &lt;&lt; &quot;var (after *ptr = 20): &quot; &lt;&lt; var &lt;&lt; &quot;\n&quot;;
+
+    ref = 30;
+    std::cout &lt;&lt; &quot;var (after ref = 30): &quot; &lt;&lt; var &lt;&lt; &quot;\n&quot;;
+
+    return 0;
+}
+</div><p id="74f8d05e_1587">在这个示例中， <code class="code" id="74f8d05e_1588">var</code>是一个普通的整数变量， <code class="code" id="74f8d05e_1589">ptr</code>是一个指向<code class="code" id="74f8d05e_1590">var</code>的指针， <code class="code" id="74f8d05e_1591">ref</code>是<code class="code" id="74f8d05e_1592">var</code>的引用。通过<code class="code" id="74f8d05e_1593">*ptr</code>可以修改<code class="code" id="74f8d05e_1594">var</code>的值，因为<code class="code" id="74f8d05e_1595">*ptr</code>解引用了指向<code class="code" id="74f8d05e_1596">var</code>的指针。同样，通过修改<code class="code" id="74f8d05e_1597">ref</code>也会改变<code class="code" id="74f8d05e_1598">var</code>的值，因为<code class="code" id="74f8d05e_1599">ref</code>是<code class="code" id="74f8d05e_1600">var</code>的一个引用。</p></section></section><section class="chapter"><h2 id="74f8d05e_1601" data-toc="74f8d05e_1601"   >& -> 引用参数/返回类型</h2><p id="74f8d05e_1602">当<code class="code" id="74f8d05e_1603">&amp;</code>用在函数参数类型前时，它表示参数将以引用的方式传递，这允许函数直接修改传入的参数。</p><div class="code-block" data-lang="cpp"         >
+void increment(int&amp; value) {
+    value++; // 直接修改传入的参数
+}
+</div><p id="74f8d05e_1605">当<code class="code" id="74f8d05e_1606">&amp;</code>用在函数返回类型前时，它表示函数返回一个引用。</p><div class="code-block" data-lang="cpp"         >
+int&amp; getElement(int* array, int index) {
+    return array[index]; // 返回数组元素的引用
+}
+</div><p id="74f8d05e_1608">返回引用时要特别注意，不要返回局部变量的引用，因为局部变量在函数返回后会被销毁，这样会导致未定义的行为。</p></section><section class="chapter"><h2 id="74f8d05e_1609" data-toc="74f8d05e_1609"   >* -&gt; 指针参数/返回类型</h2><p id="74f8d05e_1610">当<code class="code" id="74f8d05e_1611">*</code>用在函数参数类型前时，它表示参数将以指针的方式传递。</p><div class="code-block" data-lang="cpp"         >
+void setToNull(int* ptr) {
+    ptr = nullptr; // 将传入的指针设置为nullptr
+}
+</div><p id="74f8d05e_1613">当<code class="code" id="74f8d05e_1614">*</code>用在函数返回类型前时，它表示函数返回一个指针。</p><div class="code-block" data-lang="cpp"         >
+int* getPointer(int&amp; value) {
+    return &amp;value; // 返回指向value的指针
+}
+</div><p id="74f8d05e_1616">与返回引用类似，返回指针时也要确保你没有返回指向局部变量的指针。</p><section class="chapter"><h3 id="74f8d05e_1617" data-toc="74f8d05e_1617"   >使用场景比较</h3><ul class="list _ul" id="74f8d05e_1618"><li class="list__item" id="74f8d05e_1619"><p id="74f8d05e_1620"><span class="control" id="74f8d05e_1621">函数参数传递</span>：</p><ul class="list _ul" id="74f8d05e_1622"><li class="list__item" id="74f8d05e_1623"><p>使用<code class="code" id="74f8d05e_1624">&amp;</code> ：按引用传递，允许函数修改外部变量。</p></li><li class="list__item" id="74f8d05e_1625"><p>使用<code class="code" id="74f8d05e_1626">*</code> ：按指针传递，也可以修改外部变量，但是使用方式不同，需要解引用。</p></li></ul></li><li class="list__item" id="74f8d05e_1627"><p id="74f8d05e_1628"><span class="control" id="74f8d05e_1629">函数返回值</span>：</p><ul class="list _ul" id="74f8d05e_1630"><li class="list__item" id="74f8d05e_1631"><p>使用<code class="code" id="74f8d05e_1632">&amp;</code> ：返回引用，通常用于返回参数传递的对象或者全局/静态对象。</p></li><li class="list__item" id="74f8d05e_1633"><p>使用<code class="code" id="74f8d05e_1634">*</code> ：返回指针，可以是新分配的内存，也可以是参数传递的对象的地址。</p></li></ul></li></ul><p id="74f8d05e_1635">下面是一个包含这些概念的示例代码：</p><div class="code-block" data-lang="cpp"         >
+#include &lt;iostream&gt;
+
+void modifyByReference(int&amp; ref) {
+    ref = 100; // 修改引用的值，会影响原始变量
+}
+
+int* allocateMemory() {
+    int* ptr = new int(200); // 分配内存并返回其地址
+    return ptr;
+}
+
+int main() {
+    int a = 1;
+    modifyByReference(a); // a现在是100
+    std::cout &lt;&lt; &quot;a after modifyByReference: &quot; &lt;&lt; a &lt;&lt; &quot;\n&quot;;
+
+    int* b = allocateMemory();
+    std::cout &lt;&lt; &quot;*b after allocateMemory: &quot; &lt;&lt; *b &lt;&lt; &quot;\n&quot;;
+    delete b; // 记得释放内存
+
+    return 0;
+}
+</div><p id="74f8d05e_1637">在这段代码中， <code class="code" id="74f8d05e_1638">modifyByReference</code>函数接收一个整数引用作为参数并修改它。 <code class="code" id="74f8d05e_1639">allocateMemory</code>函数分配了一个整数的内存并返回指向它的指针。注意，我们使用了<code class="code" id="74f8d05e_1640">new</code>来分配内存，因此需要用<code class="code" id="74f8d05e_1641">delete</code>来释放它，防止内存泄漏。</p><p id="74f8d05e_1642">这些示例说明了<code class="code" id="74f8d05e_1643">*</code>和<code class="code" id="74f8d05e_1644">&amp;</code>在函数参数和返回类型中的不同用途，它们都是C++中非常强大的特性，允许函数更灵活地操作数据。</p></section></section><div class="last-modified"> Last modified: 11 十二月 2023</div><div data-feedback-placeholder="true"></div><div class="navigation-links _bottom">  <a class="navigation-links__prev" href="属性.html">属性</a>   <a class="navigation-links__next" href="地址与指针.html">地址与指针</a>  </div></article><div id="disqus_thread"></div></div></section></main></div>  <script src="https://resources.jetbrains.com/writerside/apidoc/6.6.6-b205/app.js"></script></body></html>

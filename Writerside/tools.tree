@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE instance-profile
+        SYSTEM "https://resources.jetbrains.com/writerside/1.0/product-profile.dtd">
+
+<instance-profile id="tools"
+                 name="Code_Tools"
+                 start-page="code-tools.md">
+
+    <toc-element topic="code-tools.md"/>
+    <toc-element topic="About-Vim-Operator.md"/>
+    <toc-element topic="About-Vim-C.md"/>
+    <toc-element topic="易忘键位.md"/>
+    <toc-element topic="Clion-Key.md"/>
+</instance-profile>
