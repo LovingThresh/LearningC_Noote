@@ -1,3 +1,0 @@
-# Standard Sequence Containers
-
-Start typing here...

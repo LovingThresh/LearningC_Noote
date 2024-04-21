@@ -1,4 +1,4 @@
-#w About Vim Operator
+# About Vim Operator
 
 ## Vim的操作符命令
 - 概述

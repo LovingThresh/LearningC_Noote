@@ -14,4 +14,16 @@
         <description>Created after removal of "fallthrough" from Code Instance</description>
         <accepts>fallthrough.html</accepts>
     </rule>
+    <rule id="311727a8">
+        <description>Created after removal of "About How to Repetition" from Cpp
+            Note
+        </description>
+        <accepts>how-to-repetition.html</accepts>
+    </rule>
+    <rule id="521d0e5d">
+        <description>Created after removal of "Standard Sequence Containers"
+            from Cpp Note
+        </description>
+        <accepts>Standard-Sequence-Containers.html</accepts>
+    </rule>
 </rules>
