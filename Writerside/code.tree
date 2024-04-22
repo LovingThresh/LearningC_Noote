@@ -7,6 +7,7 @@
                  start-page="Default-topic.md">
 
     <toc-element topic="Starter.md">
+        <toc-element topic="构造.md"/>
         <toc-element topic="Iterator.md"/>
         <toc-element topic="进程与虚拟地址空间.md"/>
         <toc-element topic="属性.md"/>
@@ -23,6 +24,7 @@
         <toc-element topic="How-String-View.md"/>
     </toc-element>
     <toc-element topic="Vector.md">
+        <toc-element topic="分配规则.md"/>
         <toc-element topic="Question.md"/>
     </toc-element>
     <toc-element topic="地址与指针.md">
