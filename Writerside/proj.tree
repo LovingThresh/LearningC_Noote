@@ -6,6 +6,7 @@
                  name="Projects Note"
                  start-page="projects-note.md">
 
+    <toc-element topic="Export.md"/>
     <toc-element topic="projects-note.md"/>
     <toc-element topic="Log-Library-with-C-20.md"/>
 </instance-profile>
