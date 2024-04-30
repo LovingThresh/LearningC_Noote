@@ -69,7 +69,7 @@ You are welcome to join our
 Before you do, please read our [Code of conduct](https://plugins.jetbrains.com/plugin/20158-writerside/docs/writerside-code-of-conduct.html).
 We assume that you’ve read and acknowledged it before joining.
 
-You can also always send an email to [writerside@jetbrains.com](mailto:writerside@jetbrains.com).
+You can also always email [writerside@jetbrains.com](mailto:writerside@jetbrains.com).
 
 <seealso>
     <category ref="wrs">
