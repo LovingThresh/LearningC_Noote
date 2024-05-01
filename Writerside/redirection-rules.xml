@@ -26,4 +26,8 @@
         </description>
         <accepts>Standard-Sequence-Containers.html</accepts>
     </rule>
+    <rule id="1ac0f222">
+        <description>Created after removal of "独享指针传参" from Cpp Note</description>
+        <accepts>独享指针传参.html</accepts>
+    </rule>
 </rules>

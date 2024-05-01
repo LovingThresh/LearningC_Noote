@@ -10,6 +10,8 @@
         <toc-element topic="堆栈.md"/>
     </toc-element>
     <toc-element topic="Starter.md">
+        <toc-element topic="延迟初始化.md"/>
+        <toc-element topic="函数调用.md"/>
         <toc-element topic="容器拷贝.md"/>
         <toc-element topic="Action.md"/>
         <toc-element topic="迭代器范围.md"/>
@@ -41,6 +43,7 @@
     </toc-element>
     <toc-element topic="地址与指针.md">
         <toc-element topic="独享指针.md"/>
+        <toc-element topic="独享指针传参.md"/>
         <toc-element topic="空悬指针.md"/>
         <toc-element topic="共享指针.md"/>
         <toc-element topic="智能指针.md"/>
