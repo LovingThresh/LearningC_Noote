@@ -9,6 +9,9 @@
     <toc-element topic="数据结构.md">
         <toc-element topic="堆栈.md"/>
     </toc-element>
+    <toc-element topic="数组.md">
+        <toc-element topic="数组行为.md"/>
+    </toc-element>
     <toc-element topic="Starter.md">
         <toc-element topic="延迟初始化.md"/>
         <toc-element topic="函数调用.md"/>
