@@ -82,8 +82,8 @@ int main() {
     // clang++ -stdlib=libstdc++ -O3 -DNDEBUG -std=gnu++23
     // Traditional STL processing time: 0.07896 milli seconds.
 	// Optimized STL processing time: 0.009016 milli seconds.
-	// Optimized Ranges processing time: 0.004647 milli seconds. 
-
+	// Optimized Ranges processing time: 0.004647 milli seconds.
+	// Python Ranges processing time: 0.18906593322753906 milli seconds
     return 0;
 
 }
