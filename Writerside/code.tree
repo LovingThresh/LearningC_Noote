@@ -60,6 +60,9 @@
         <toc-element topic="函数地址.md"/>
         <toc-element topic="变量地址.md"/>
     </toc-element>
+    <toc-element topic="Ranges.md">
+        <toc-element topic="CodeExample.md"/>
+    </toc-element>
     <toc-element topic="抽象.md">
         <toc-element topic="函数抽象.md"/>
     </toc-element>
