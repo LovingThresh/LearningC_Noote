@@ -14,6 +14,7 @@
         <toc-element topic="数组行为.md"/>
     </toc-element>
     <toc-element topic="Starter.md">
+        <toc-element topic="零之准则.md"/>
         <toc-element topic="右值引用.md"/>
         <toc-element topic="操作系统的预处理.md"/>
         <toc-element topic="结构体与Op重载.md"/>
