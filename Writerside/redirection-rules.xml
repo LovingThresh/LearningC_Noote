@@ -30,4 +30,9 @@
         <description>Created after removal of "独享指针传参" from Cpp Note</description>
         <accepts>独享指针传参.html</accepts>
     </rule>
+    <rule id="58add947">
+        <description>Created after removal of "CodeExampel" from Cpp Note
+        </description>
+        <accepts>CodeExampel.html</accepts>
+    </rule>
 </rules>
