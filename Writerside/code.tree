@@ -6,6 +6,12 @@
                  name="Cpp Note"
                  start-page="Default-topic.md">
 
+    <toc-element topic="Value-Categories.md">
+        <toc-element topic="值类别.md"/>
+        <toc-element topic="值传递.md"/>
+        <toc-element topic="转换.md"/>
+        <toc-element topic="形式参数.md"/>
+    </toc-element>
     <toc-element topic="ASIO.md">
         <toc-element topic="基本概念.md"/>
         <toc-element topic="socket-file-descriptor.md"/>
