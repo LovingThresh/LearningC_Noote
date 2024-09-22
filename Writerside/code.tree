@@ -12,6 +12,8 @@
         <toc-element topic="转换.md"/>
         <toc-element topic="形式参数.md"/>
     </toc-element>
+    <toc-element topic="Style-guide.md"/>
+    <toc-element topic="移动语义.md"/>
     <toc-element topic="ASIO.md">
         <toc-element topic="基本概念.md"/>
         <toc-element topic="socket-file-descriptor.md"/>
