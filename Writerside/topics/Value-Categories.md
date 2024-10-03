@@ -209,3 +209,6 @@ return 0;
 #### 移动语义
 通过 `std::move()`，我们可以将一个 `lvalue` 转换为 `xvalue`，从而允许其资源被移动而不是拷贝。这是 C++ 中实现高效资源管理的关键机制之一。
 
+## Value Categories Exercise
+
+![Value_Categories_Exercise.png](Value_Categories_Exercise.png)

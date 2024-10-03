@@ -1,4 +1,6 @@
 # lambda函数
+
+## 示例 {#lambda-Example}
 ```C++
 auto readDocument = [this, fileName]() -> AsyncReadingResult
 {

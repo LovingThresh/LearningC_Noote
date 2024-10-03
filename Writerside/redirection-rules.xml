@@ -35,4 +35,9 @@
         </description>
         <accepts>CodeExampel.html</accepts>
     </rule>
+    <rule id="1a937838">
+        <description>Created after removal of "目录" from QT_Application
+        </description>
+        <accepts>Style-Sheets.html</accepts>
+    </rule>
 </rules>
