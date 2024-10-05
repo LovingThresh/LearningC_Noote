@@ -6,6 +6,9 @@
                  name="QT_Application"
                  start-page="qt-application.md">
 
+    <toc-element topic="Qt-Model-View-Delegate-MVD.md"/>
+    <toc-element topic="Delegate.md"/>
+    <toc-element topic="Signal-Slot-Mechanism.md"/>
     <toc-element topic="qt-application.md"/>
     <toc-element topic="QT-Object-Model.md"/>
     <toc-element topic="Questions.md"/>

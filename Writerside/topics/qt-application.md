@@ -6,6 +6,8 @@
 - [QSetting](QSetting.md)
 - [QString](QString.md#QString)
 - [QT-Object-Model](QT-Object-Model.md)
+- [MVD](Qt-Model-View-Delegate-MVD.md)
+- [Delegates](Delegate.md)
 
 ### Advanced Topics
 - [lambdaº¯Êý](lambdaº¯Êý.md#lambda-Example)
