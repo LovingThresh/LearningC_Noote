@@ -7,7 +7,11 @@
                  start-page="qt-application.md">
 
     <toc-element topic="SOLID.md"/>
-    <toc-element topic="Qt-Model-View-Delegate-MVD.md"/>
+    <toc-element topic="Qt-Model-View-Delegate-MVD.md">
+        <toc-element topic="QT-proxy-vs-delegate.md"/>
+        <toc-element topic="Advanced-proxy-vs-delegate.md"/>
+        <toc-element topic="QT-Controller.md"/>
+    </toc-element>
     <toc-element topic="Delegate.md"/>
     <toc-element topic="Signal-Slot-Mechanism.md"/>
     <toc-element topic="qt-application.md"/>
