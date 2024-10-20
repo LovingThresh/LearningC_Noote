@@ -6,6 +6,7 @@
                  name="Cpp Note"
                  start-page="Default-topic.md">
 
+    <toc-element topic="RAII.md"/>
     <toc-element topic="Value-Categories.md">
         <toc-element topic="值类别.md"/>
         <toc-element topic="值传递.md"/>
